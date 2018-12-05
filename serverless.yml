@@ -1,4 +1,4 @@
-service: <your site name>
+service: my-demo-site
 
 provider:
   name: aws
@@ -9,7 +9,7 @@ provider:
 plugins:
   - serverless-finch
 custom:
-  siteName: <your domain or bucket name>
+  siteName: gatsby-demo-site
   client:
     bucketName: ${self:custom.siteName}
     distributionFolder: public
