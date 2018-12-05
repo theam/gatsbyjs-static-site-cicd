@@ -3,9 +3,9 @@
     <img alt="Gatsby" src="logo.svg" width="200" />
   </a>
 </p>
-<h1 align="center">
-  A tutorial for deploying your GatsbyJS application to an AWS S3 bucket through your CICD pipeline. 
-</h1>
+<h2 align="center">
+  A basic template for deploying your GatsbyJS application to an AWS S3 bucket through your CICD pipeline. 
+</h2>
 
 WIP
 
