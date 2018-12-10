@@ -8,7 +8,7 @@ provider:
 plugins:
   - serverless-finch
 custom:
-  siteName: gatsby-demo-site
+  siteName: gatsby-demo-website
   client:
     bucketName: ${self:custom.siteName}
     distributionFolder: public
