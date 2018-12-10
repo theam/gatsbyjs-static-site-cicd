@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "gatsby-in-aws-cicd",
+  "description": "Gatsby app in S3 Bucket deployed through CircleCI",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Tai Nguyen Bui <tai@theagilemonkeys.com>",
   "dependencies": {
     "gatsby": "^2.0.53",
     "gatsby-image": "^2.0.20",
@@ -17,7 +17,10 @@
     "react-helmet": "^5.2.0"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "circleci",
+    "jest",
+    "aws"
   ],
   "license": "MIT",
   "scripts": {
@@ -43,6 +46,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/theam/gatsbyjs-static-site-cicd"
   }
 }
